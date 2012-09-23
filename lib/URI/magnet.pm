@@ -4,7 +4,7 @@ use strict;
 
 use parent qw( URI::_generic URI::QueryParam );
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 sub tr {
   my $self = shift;
@@ -150,6 +150,9 @@ Please report any bugs or feature requests to
 C<bug-uri-magnet@rt.cpan.org>, or through the web interface at
 L<http://rt.cpan.org>.
 
+=head1 CONTRIBUTING
+
+Project repository is on Github L<http://github.com/garu/URI-magnet>.
 
 =head1 AUTHOR
 
