@@ -8,7 +8,11 @@ perldoc URI::magnet
 
 INSTALLATION
 
-To install this module, run the following commands:
+To install this module, use cpan or cpanm:
+
+  cpan URI::magnet
+
+For a manual installation, download and extract the module, then run the following commands:
 
 	perl Makefile.PL
 	make

@@ -4,7 +4,7 @@ use strict;
 
 use parent qw( URI::_generic URI::QueryParam );
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 sub tr {
   my $self = shift;
@@ -161,7 +161,7 @@ Breno G. de Oliveira  C<< <garu@cpan.org> >>
 
 =head1 LICENCE AND COPYRIGHT
 
-Copyright (c) 2012, Breno G. de Oliveira C<< <garu@cpan.org> >>. All rights reserved.
+Copyright (c) 2012-2013, Breno G. de Oliveira C<< <garu@cpan.org> >>. All rights reserved.
 
 This module is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself. See L<perlartistic>.

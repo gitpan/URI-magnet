@@ -14,6 +14,16 @@ WriteMakefile(
         'URI'             => 0,
         'URI::QueryParam' => 0,
     },
+
+    META_MERGE      => {
+        resources => {
+            license     =>      'http://dev.perl.org/licenses/',
+            bugtracker  =>      'http://rt.cpan.org/NoAuth/Bugs.html?Dist=URI-magnet',
+            repository  =>      'http://github.com/garu/URI-magnet',
+        },
+    },
+
+
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'URI-magnet-*' },
 );
